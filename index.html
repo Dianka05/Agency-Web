@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Agency Web</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="nav-item selected" onclick="SelectedNav(event)"><a href="#home">Home</a></li>
+                <li class="nav-item" onclick="SelectedNav(event)"><a href="#feature" >Portfolio</a></li>
+                <li class="nav-item" onclick="SelectedNav(event)"><a href="#about" >About us</a></li>
+                <li class="nav-item" onclick="SelectedNav(event)"><a href="#contact" >Contact</a></li>
+            </ul>
+            <div class="navbar-btn" onclick="OpenMobileMenu()">
+                <span id="lineU"></span>
+                <span id="line1"></span>
+                <span id="line2"></span>
+                <span id="lineD"></span>
+            </div>
+            <ul id="navbar">
+                <li class="nav-bar-item selected"><a href="">Home</a></li>
+                <li class="nav-bar-item"><a href="#feature">Portfolio</a></li>
+                <li class="nav-bar-item"><a href="#about">About us</a></li>
+                <li class="nav-bar-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="intro-section" id="home">
+
+            <div class="intro-block">
+                <h1 class="title">our strong <br />
+                    organaisation
+                </h1>
+                <p class="sub-title">
+                    Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor
+                    incididunt  ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.
+                </p>    
+                <a class="contact-btn" href="#">Contact Us</a>
+            </div>
+
+
+            <div class="intro-block">
+                <video class="intro-video" src="HTMLSemantics.mp4" controls>
+
+                </video>
+            </div>
+        </section>
+    </header>
+
+
+    <main>
+        <section class="offer-section">
+            <div class="offer-block">
+                <h2 class="offer-title">do you know we can 
+                    provide for you ?</h2>
+                <p class="offer-sub">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore 
+                    et.Lorem ni ipsum dolor sit amet, consectetur adipis cing elit, ed doi eiusmod tempor incididunt ut labore et.</p>
+                <a href="#" class="learn-btn">Learn More</a>
+            </div>
+
+            <div class="offer-block">
+                <div class="offer-card">
+                    <img src="/img/Settings.png" alt="" class="offer-icon">
+                    <h3 class="card-title">Management</h3>
+                    <p class="card-description">Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
+                </div>
+                <div class="offer-card">
+                    <img src="/img/Pencil.png" alt="" class="offer-icon">
+                    <h3 class="card-title">UI /UX Design</h3>
+                    <p class="card-description">Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
+                </div>
+                <div class="offer-card">
+                    <img src="/img/Diamond.png" alt="" class="offer-icon">
+                    <h3 class="card-title">Logo / Branding</h3>
+                    <p class="card-description">Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
+                </div>
+                <div class="offer-card">
+                    <img src="/img/Truck 2.png" alt="" class="offer-icon">
+                    <h3 class="card-title">Animation</h3>
+                    <p class="card-description">Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="feature-section" id="feature">
+            <div class="feature-intro">
+                <h2 class="feature-title">feature products</h2>
+                <p class="feature-sub">Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt ut labore et.</p>
+                <div class="line"></div>
+            </div>
+            <ul class="filters-list">
+                <li class="filter-item selected-item" onclick="SelectedItem('all', event)">all</li>
+                <li class="filter-item" onclick="SelectedItem('print template', event)">print template</li>
+                <li class="filter-item" onclick="SelectedItem('web', event)">web template</li>
+                <li class="filter-item" onclick="SelectedItem('user interface', event)">user interface</li>
+                <li class="filter-item" onclick="SelectedItem('mock-up', event)">mock-up</li>
+            </ul>
+            <div class="feature-gallery" id="gallery">
+                <img src="https://images.unsplash.com/photo-1632062549850-44a0a6eede16?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  data-tags="print template,all" alt="">
+                <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  data-tags="web,all"alt="">
+                <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" data-tags="web,all" alt="">
+                <img src="https://images.unsplash.com/photo-1602576666092-bf6447a729fc?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  data-tags="user interface,all"alt="">
+                <img src="https://images.unsplash.com/photo-1602064172250-43f8909056c7?q=80&w=2157&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" data-tags="user interface,all" alt="">
+                <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" data-tags="user interface,all" alt="">
+                <img src="https://images.unsplash.com/photo-1543487945-139a97f387d5?q=80&w=1960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" data-tags="mock-up,all" alt="">
+                <img src="https://images.unsplash.com/photo-1516049084740-9a14b9c4239c?q=80&w=2125&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  data-tags="mock-up,all" alt="">
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="about-intro">
+                <h2 class="about-title">Meet our team</h2>
+                <p class="about-sub">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
+                <div class="line"></div>
+            </div>
+
+            <div class="about-team">
+                <img class="team-lead" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+
+                <div class="team-container">
+                    <div class="team-intro">
+                        <h3 class="team-name">mark waugh</h3>
+                        <p class="team-sub">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
+                        
+                        <ul class="social-list">
+                            <li><a href="" class="social-item">Facebook</a></li>
+                            <li><a href="" class="social-item">Dribble</a></li>
+                            <li><a href="" class="social-item">Behance</a></li>
+                            <li><a href="" class="social-item">Twiter</a></li>
+                        </ul>
+                    
+                    </div>
+                    
+                    <div class="team-members">
+                        <div class="member">
+                            <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            <div class="member-name">sokina jue</div>
+                        </div>
+                        
+                        <div class="member">
+                            <img src="https://images.unsplash.com/photo-1531891437562-4301cf35b7e4?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8" alt="">
+                            <div class="member-name">Wiliam Doe</div>
+                        </div>
+                        
+                        <div class="member">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHBlb3BsZXxlbnwwfHwwfHx8Mg%3D%3D" alt="">
+                            <div class="member-name">Jane Doe</div>
+                        </div>
+                        
+                        <div class="member">
+                            <img src="https://images.unsplash.com/photo-1489980557514-251d61e3eeb6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D" alt="">
+                            <div class="member-name">Mark Brown</div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+        </section>
+
+        <section class="subscribe-section">
+            <div class="subscribe-cover">
+                <h2 class="subscribe-title">Design tips, tricks, and freebies. Delivered weekly.</h2>
+                <p class="subscribe-sub">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
+                <form action="" class="newspapers-form">
+                    <input type="email" placeholder="Email Address..." class="email-input">
+                    <button type="submit" class="subscribe-btn">subscribe</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+           <div class="contact-cover">
+                <div class="contact-intro">
+                    <h2 class="contact-title">get in touch</h2>
+                    <p class="contact-sub">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur 
+                        adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.
+                    </p>
+                    <div class="line"></div>
+                </div>
+                <form action="" class="contact-form">
+                    <div class="form-cover">
+                        <input type="text" class="input-name" placeholder="Name">
+                        <input type="email"class="input-email" placeholder="Your email">
+                    </div>
+                    <input type="text" class="input-messange" placeholder="Type your message">
+                    <input type="submit" value="Send message" class="input-btn">
+                </form>
+                
+                <div class="contact-info">
+                    <h3 class="info-title">contact info</h3>
+                    <a href="#" class="info-sub">Jalalabad 24 / A, Ambaarkhana, Sylhet, 
+                        Bangladesh</a>
+                    <a href="mailto:">email@dev.com</a>
+                    <a href="tel:+">(+77) 014 657 4653</a>
+                </div>
+
+           </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>© Copyright @Junaed 2016, All rights reserved.</p>
+        <div class="social-media">
+            <a href="" class="twitter"></a>
+            <a href="" class="linkedin"></a>
+            <a href="" class="google"></a>
+            <a href="" class="facebook"></a>
+        </div>
+    </footer>
+    
+</body>
+</html>
