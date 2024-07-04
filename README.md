@@ -33,6 +33,6 @@
 
 Tento projekt demonstruje mé dovednosti ve vývoji responzivních rozhraní, vytváření intuitivních a funkčních mobilních menu a používání nejlepších praktik webového vývoje pro tvorbu moderních a výkonných webových stránek.
 <div style="display: flex; flex-direction: row; justify-content: space-between; width: 100%;">
-  <img src="https://i.ibb.co/sC4br6R/2024-06-21-00-30-04.png" alt="2024-06-21-00-30-04" border="0" style="width: 50%;">
-  <img src="https://i.ibb.co/ckBQhLh/2024-06-21-00-30-53.png" alt="2024-06-21-00-30-53" border="0" style="width: 30%;">
+  <img src="https://i.ibb.co/sC4br6R/2024-06-21-00-30-04.png" alt="2024-06-21-00-30-04" border="0" style="width: 50%;" />
+  <img src="https://i.ibb.co/ckBQhLh/2024-06-21-00-30-53.png" alt="2024-06-21-00-30-53" border="0" style="width: 30%;" />
 </div>
